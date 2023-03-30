@@ -150,7 +150,7 @@ button {
 }
 
 /* This is for id baslik font prefer */
-#baslik{
+.baslik{
     font-family: Titillium Web;
     font-weight:600;
     font-size: 17px;
@@ -253,7 +253,7 @@ table{
     width: 100%;
     background-color: rgb(255, 248, 248);
 }
-#r{
+.r{
     width: 100%;
     text-align: right;
 }
