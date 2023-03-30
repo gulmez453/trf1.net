@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>TRF1.net - Türkiye'nin En Büyük Motorsporları Haber Sitesi</title>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="header">
+            <div class="logo">
+                <a href="index.html"><img src="logo.jpg" alt="logo"/></a>
+
+            </div>
+            <div class="advertisement">
+                <a href="#"><img src="ad3.jpg" alt="ogozler"/></a>
+
+            </div>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="teams.html">Teams&Drivers</a></li>
+                <li><a href="stats.html"class="active">Championship Stats</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            
+            <div class="tab-container">
+ 
+               
+              
+              <div class="tabs">
+                <button class="tab-bar-item tab-button" onclick="openTab('Drivers')">Drivers</button>
+                <button class="tab-bar-item tab-button" onclick="openTab('Teams')">Teams</button>
+              </div>
+              
+              <div id="Drivers" class="tab-container stats" style="display:block">
+                 <table>
+                    <tr>
+                        <th class="r1">Driver</th>
+                        <th  class="r1">Point</th>
+                    </tr>
+                    <tr>
+                        <td class="r0">Verstappen</td>
+                        <td id="r" class="r0">44</td>
+                    </tr>                        
+                    <tr>
+                        <td class="r1">Perez</td>
+                        <td id="r" class="r1">43</td>
+                    </tr>
+                    <tr>
+                        <td class="r0">Alonso</td>
+                        <td id="r"class="r0">30</td>
+                    </tr>
+                    <tr>
+                        <td class="r1">Sainz</td>
+                        <td id="r" class="r1">20</td>
+                    </tr>
+                    <tr>
+                        <td class="r0">Hamilton</td>
+                        <td id="r" class="r0">20</td>
+                    </tr>
+                    <tr>
+                        <td class="r1">Russell</td>
+                        <td id="r" class="r1">18</td>
+                    </tr>
+                    <tr>
+                        <td class="r0">Stroll</td>
+                        <td id="r" class="r0">8</td>
+                    </tr>
+                    <tr>
+                        <td class="r1">Leclerc</td>
+                        <td id="r" class="r1">6</td>
+                    </tr>
+                    <tr>
+                        <td class="r0">Bottas</td>
+                        <td id="r" class="r0">4</td>
+                    </tr>
+                    <tr>
+                        <td class="r1">Ocon</td>
+                        <td id="r" class="r1">4</td>
+                    </tr>
+                    <tr>
+                        <td class="r0">Gasly</td>
+                        <td id="r" class="r0">4</td>
+                    </tr>
+                    <tr>
+                        <td class="r1">Magnussen</td>
+                        <td id="r" class="r1">1</td>
+                    </tr>
+                    <tr>
+                        <td class="r0">Albon</td>
+                        <td id="r" class="r0">1</td>
+                    </tr>
+                </table>
+              </div>
+              
+              
+              <div id="Teams" class="tab-container stats" style="display:none">
+
+                <table>
+                    <tr>
+                        <th class="r1">Team</th>
+                        <th class="r1">Point</th>
+                    </tr>
+                    <tr>
+                        <td class="r0">RedBull Racing</td>
+                        <td id="r"class="r0">87</td>
+                    </tr>                        
+                    <tr>
+                        <td class="r1">Aston Martin Racing</td>
+                        <td id="r"class="r1">38</td>
+                    </tr>
+                    <tr>
+                        <td class="r0">Mercedes</td>
+                        <td id="r"class="r0">38</td>
+                    </tr>
+                    <tr>
+                        <td class="r1">Ferrari</td>
+                        <td id="r"class="r1">26</td>
+                    </tr>
+                    <tr>
+                        <td class="r0">Alpine</td>
+                        <td id="r"class="r0">8</td>
+                    </tr>
+                    <tr>
+                        <td class="r1">Alfa Romeo</td>
+                        <td id="r"class="r1">4</td>
+                    </tr>
+                    <tr>
+                        <td class="r0">Haas</td>
+                        <td id="r"class="r0">1</td>
+                    </tr>
+                    <tr>
+                        <td class="r1">Williams</td>
+                        <td id="r"class="r1">1</td>
+                    </tr>
+                </table>
+              </div>
+            </div> 
+        
+        <div class="rightmenu">
+            <div id="adbox">
+                <div class="caption">
+                    Advertisement
+                </div>
+                <div class="adbox1">
+                    <a href="#"><img src="adbox.JPG" alt="1"/></a>
+                </div>
+            </div>
+
+            
+  
+        </div>
+    </div>
+        <div class="footer">
+
+            <div class="social">
+                Follow Us<br>
+                <a href="http://www.facebook.com"><img src="facebook.png" alt="face"></a>
+                <a href="http://www.twitter.com"><img src="twitter.png" alt="twit"></a>
+            </div>
+            <div class="copyright"><p>© 2023 TRF1.net . All rights reserved.</p>
+                
+            </div>    
+        </div>
+    </div>
+    <script>
+        function openTab(statsName) {
+          var i;
+          var x = document.getElementsByClassName("stats");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          document.getElementById(statsName).style.display = "block";  
+        }
+        </script>  
+</body>
+</html>

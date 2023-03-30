@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Titillium+Web:wght@400;600;700&display=swap');
+
+
+.header{
+    height: 125px;
+    width: 70%;
+
+    margin-left: 15%;
+    margin-right: 15%;
+
+
+}
+
+.logo {
+    float: left;
+
+    }
+.advertisement{
+    margin-right: 13px;
+}
+.advertisement img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    padding-top: 13px;
+
+
+    
+}
+
+.nav{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0px;
+    height: 34px;
+    width: 70%;
+    background-color: rgb(52, 52, 52);
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: rgb(255, 38, 0);
+ 
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 38px;
+    margin: 0 4px;
+    
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Titillium Web;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left : 5px;
+    padding-right: 5px;
+    
+}
+.nav ul li a.active,
+.nav ul li a:hover{
+    background-color: rgb(255, 38, 0);
+    transition:0.5s;
+    
+
+
+    
+}
+.main{
+    width: 70%;
+
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.headline{
+
+    margin-top: 5px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-width: 10px;
+    border-color: rgb(25, 13, 13);
+
+
+}
+
+.headline img{
+
+    width: 100%;
+    height: 350px; 
+    object-fit: none;
+    
+}
+
+h3 {
+    font-family: Titillium Web;
+    font-weight: 600;
+    margin: 10px;
+}
+h4 {
+    font-family: Titillium Web;
+    font-weight: 600;
+    font-size: 17px;
+}
+p {
+    font-family: Titillium Web;
+    margin: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+button {
+    font-family: Titillium Web;
+    font-weight: 600;
+
+    margin-bottom: 10px;
+    margin-left: 10px ;
+}
+
+
+.News {
+    margin-top: 5px;
+    width: 68%;
+    position: relative;
+    float: left;
+
+
+
+}
+.caption{
+
+    height: 34px;
+    font-family: Titillium Web;
+    font-weight:600;
+    background-color: rgb(216, 216, 216);
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 4px;
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: rgb(255, 38, 0);
+    margin-top: 3px;
+}
+#baslik{
+    font-family: Titillium Web;
+    font-weight:600;
+    font-size: 17px;
+}
+
+.news1 {
+    float:left;
+    width: 31%;
+
+
+    
+}
+.news2 {
+    float:left;
+    width: 31%;
+    margin-left: 3.5%;
+
+
+    
+}
+.news3 {
+    float:right;
+    width: 31%;
+
+
+    
+}
+.newscolumb img{
+    width: 100% ;
+    margin-top:5px;
+    margin-bottom: -15px;
+}
+
+
+.newscolumb p{
+    font-size: 15px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:-15px;
+    
+}
+
+.rightmenu{
+    width: 30%;
+
+    position: relative;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 100px;
+
+}
+.adbox1 img{
+    width: 100%;
+}
+
+.footer{
+    height: 105px;
+    width: 100%;
+    color: rgb(255, 248, 248);
+    text-align: center;
+    font-family: Titillium Web;
+    font-weight: 700;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    clear:both;
+    background-color: rgb(52, 52, 52);
+
+}
+.footer img{
+    width: 25px;
+    margin:5px
+    
+}
+.copyright p{
+    color:rgb(255, 213, 0) ;
+    font-weight: 400;
+    font-size: 12;
+
+}
+table{
+    font-family: Titillium Web;
+    font-size: 15px;
+    
+
+}
+.r1{
+    width: 100%;
+    background-color: rgb(255, 238, 235);
+
+}
+.r0{
+    width: 100%;
+    background-color: rgb(255, 248, 248);
+}
+#r{
+    width: 100%;
+    text-align: right;
+}
+
+
+a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.Contact{
+    margin-top: 5px;
+    width: 68%;
+    position: relative;
+    float: left;
+  
+}
+
+form {
+    
+    font-family: Titillium Web;
+    margin-left: 5%;
+}
+input{
+    width: 300px;
+    
+   
+
+}
+
+#message {
+
+    height: 150px;
+}
+
+#submit{
+    margin-bottom: 100px;
+}
+
+.tab-container{
+    margin-top: 5px;
+    width: 68%;
+    position: relative;
+    float: left;
+    margin-bottom: 25px;
+}
+
+.tabs{
+
+    height: 34px;
+    font-family: Titillium Web;
+    font-weight:600;
+    background-color: rgb(216, 216, 216);
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 4px;
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: rgb(255, 38, 0);
+    margin-top: 3px;
+
+}
+
+.tab-bar-item {
+
+    border: none;
+    font-size: 18px;
+
+    background: inherit;
+    cursor: pointer;
+}
+
+.tab-bar-item:hover{
+
+   
+    background: rgb(255, 38, 0);
+    color: white;
+    height: 36px;
+
+
+}
+
+
+.teamlogo img{
+    width: 24.8%;
+    float: left;
+}
+.pilot {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.pilot1 img{
+
+    width: 14%;
+    float: left;
+
+
+}
+
+.car img{
+    width: 47.2%;
+    float: left;
+}
+
+
+  .captionteam{
+
+    height: 34px;
+    font-family: Titillium Web;
+    font-weight:600;
+    background-color: rgb(216, 216, 216);
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 4px;
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: rgb(255, 38, 0);
+    margin-top: 3px;
+    clear: both;
+}
