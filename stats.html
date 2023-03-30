@@ -2,6 +2,8 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+
     <title>TRF1.net - Türkiye'nin En Büyük Motorsporları Haber Sitesi</title>
 </head>
 <body>
@@ -29,13 +31,13 @@
             <div class="tab-container">
  
                
-              
+              <!-- There are I try to tab for teams and drivers point table. I use button for tab-->
               <div class="tabs">
                 <button class="tab-bar-item tab-button" onclick="openTab('Drivers')">Drivers</button>
                 <button class="tab-bar-item tab-button" onclick="openTab('Teams')">Teams</button>
               </div>
               
-              <div id="Drivers" class="tab-container stats" style="display:block">
+              <div id="Drivers" class="tab-container stats" > <!-- This is driver table -->
                  <table>
                     <tr>
                         <th class="r1">Driver</th>
@@ -96,12 +98,13 @@
                 </table>
               </div>
               
-              
+              <!-- there are I must use style for hide second tab-->
               <div id="Teams" class="tab-container stats" style="display:none">
 
                 <table>
                     <tr>
-                        <th class="r1">Team</th>
+                        <th class="r1">Team</th>     <!-- this is teams table-->
+
                         <th class="r1">Point</th>
                     </tr>
                     <tr>
@@ -166,15 +169,6 @@
             </div>    
         </div>
     </div>
-    <script>
-        function openTab(statsName) {
-          var i;
-          var x = document.getElementsByClassName("stats");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";  
-          }
-          document.getElementById(statsName).style.display = "block";  
-        }
-        </script>  
+
 </body>
 </html>

@@ -1,8 +1,9 @@
+/* This is for google font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Titillium+Web:wght@400;600;700&display=swap');
 
-
+/* This is  for cemtered header*/
 .header{
-    height: 125px;
+
     width: 70%;
 
     margin-left: 15%;
@@ -10,25 +11,26 @@
 
 
 }
-
-.logo {
+/* This is for logo align left */
+.logo img{
     float: left;
-
+    width: 28%;
     }
-.advertisement{
-    margin-right: 13px;
-}
+
+    /* This is for ad img centered*/
+
 .advertisement img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 100px;
+    height: 3%;
     padding-top: 13px;
+    width: 60%;
 
 
     
 }
-
+/* This is navbar height and width also color */
 .nav{
     margin-left: 15%;
     margin-right: 15%;
@@ -41,6 +43,7 @@
     border-color: rgb(255, 38, 0);
  
 }
+/* This is  for sequential menu text  */
 .nav ul li{
     list-style: none;
     display: inline-block;
@@ -48,7 +51,7 @@
     margin: 0 4px;
     
 }
-
+/* This is  for menu text decoration*/
 .nav ul li a{
     text-decoration: none;
     color: white;
@@ -57,17 +60,15 @@
     font-size: 20px;
     padding-left : 5px;
     padding-right: 5px;
-    
+  /* This is for color change for active class and hover menu  */  
 }
 .nav ul li a.active,
 .nav ul li a:hover{
     background-color: rgb(255, 38, 0);
-    transition:0.5s;
-    
-
-
-    
+    transition:0.5s; 
 }
+
+/* This is  centered main division*/
 .main{
     width: 70%;
 
@@ -76,6 +77,7 @@
 
 }
 
+/* This is headline div properties */
 .headline{
 
     margin-top: 5px;
@@ -86,7 +88,7 @@
 
 
 }
-
+/* This is image tag size */
 .headline img{
 
     width: 100%;
@@ -94,7 +96,7 @@
     object-fit: none;
     
 }
-
+/* These are  h3 h4 p button tag font decoration*/
 h3 {
     font-family: Titillium Web;
     font-weight: 600;
@@ -119,7 +121,7 @@ button {
     margin-left: 10px ;
 }
 
-
+/* This is  fr news div position left and width*/
 .News {
     margin-top: 5px;
     width: 68%;
@@ -129,6 +131,8 @@ button {
 
 
 }
+
+/* This is all box caption */
 .caption{
 
     height: 34px;
@@ -143,12 +147,14 @@ button {
     border-color: rgb(255, 38, 0);
     margin-top: 3px;
 }
+
+/* This is for id baslik font prefer */
 #baslik{
     font-family: Titillium Web;
     font-weight:600;
     font-size: 17px;
 }
-
+/* These are sequential news division  */
 .news1 {
     float:left;
     width: 31%;
@@ -171,13 +177,15 @@ button {
 
     
 }
+
+/* This is for news img tag size */
 .newscolumb img{
     width: 100% ;
     margin-top:5px;
     margin-bottom: -15px;
 }
 
-
+/* This is p tag properties */
 .newscolumb p{
     font-size: 15px;
     margin-left:0px;
@@ -186,6 +194,7 @@ button {
     
 }
 
+/* This is for  right menu size*/
 .rightmenu{
     width: 30%;
 
@@ -195,10 +204,11 @@ button {
     margin-bottom: 100px;
 
 }
+/* This is for ad box */
 .adbox1 img{
     width: 100%;
 }
-
+/* This is for footer */
 .footer{
     height: 105px;
     width: 100%;
@@ -212,23 +222,27 @@ button {
     background-color: rgb(52, 52, 52);
 
 }
+/* This is for footer img tag size */
 .footer img{
     width: 25px;
     margin:5px
     
 }
+/* This is copright font color and align */
 .copyright p{
     color:rgb(255, 213, 0) ;
     font-weight: 400;
     font-size: 12;
 
 }
+/* This is table font */
 table{
     font-family: Titillium Web;
     font-size: 15px;
     
 
 }
+/* These are table row color */
 .r1{
     width: 100%;
     background-color: rgb(255, 238, 235);
@@ -248,6 +262,8 @@ a {
     text-decoration: none;
     color:rgb(0, 0, 0);
 }
+
+/* These are contact page form input message and submit size and font family  */
 .Contact{
     margin-top: 5px;
     width: 68%;
@@ -277,6 +293,8 @@ input{
     margin-bottom: 100px;
 }
 
+
+/* This is size of stats page tabbed page */
 .tab-container{
     margin-top: 5px;
     width: 68%;
@@ -284,7 +302,7 @@ input{
     float: left;
     margin-bottom: 25px;
 }
-
+/* This is tab bar properties*/
 .tabs{
 
     height: 34px;
@@ -300,7 +318,7 @@ input{
     margin-top: 3px;
 
 }
-
+/* This is tab bar button decoration */
 .tab-bar-item {
 
     border: none;
@@ -310,6 +328,7 @@ input{
     cursor: pointer;
 }
 
+/* This is for colored hover tab */
 .tab-bar-item:hover{
 
    
@@ -320,7 +339,7 @@ input{
 
 }
 
-
+/* These are for teams page img size and align  */
 .teamlogo img{
     width: 24.8%;
     float: left;
@@ -343,7 +362,7 @@ input{
     float: left;
 }
 
-
+/* This is team name caption */
   .captionteam{
 
     height: 34px;
