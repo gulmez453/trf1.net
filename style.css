@@ -379,3 +379,9 @@ input{
     margin-top: 3px;
     clear: both;
 }
+
+#contactcaption{
+    font-style: oblique;
+    font-size: 18px;
+    margin-left: 25px;
+}
