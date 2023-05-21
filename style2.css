@@ -273,6 +273,8 @@ a {
     float: left;
   
 }
+/* These are form label row properties */
+
 label {
     float: left;
     position: relative;
@@ -284,6 +286,7 @@ label {
     margin-left: 15px;
 
   }
+  /* These are form width and font properties */
 form {
     
     font-family: Titillium Web;
@@ -291,7 +294,7 @@ form {
     width: 500px;
     
 }
-
+/* These are form input row properties */
 input{
     display: flex;
     position: relative;
@@ -302,19 +305,20 @@ input{
 
 
 }
+/* These are form dropbox  properties */
 select {
     width: 292px;
     padding: 5px;
     color: rgb(0, 0, 0);
 
   }
+  /* These are form button  properties */
 button {
     margin-top: 5px;
     padding: 10px;
     background-color: rgb(255, 38, 0);
     color: white;  
   }
-
   .button {
     display: inline;
 
@@ -324,16 +328,18 @@ button {
     margin-left: 35%;
   }
 
+  /* These are newdiv class new added division class properties */
   .newdiv {
     clear: both;
     
   }
-
+/* These are piece row text properties */
 .newdivv{
     float: left;
     width: 35px;
     
  }
+ /* These are piece "+"  properties */
 .newdiva{
 float: left;
 width: 25px;
@@ -342,6 +348,10 @@ margin-left: 15px;
     font-size: xx-large;
     margin-top: -10px;
  }
+ .newdiva:hover{
+    color: rgb(255, 38, 0);
+ }
+  /* These are piece "-"  properties */
  .newdivb{
     float: left;
     width: 25px;
@@ -354,9 +364,7 @@ margin-left: 15px;
  .newdivb:hover{
     color: rgb(255, 38, 0);
  }
- .newdiva:hover{
-    color: rgb(255, 38, 0);
- }
+
  .newdivt:hover{
     color: rgb(255, 38, 0);
  }
@@ -367,18 +375,18 @@ margin-left: 15px;
    
    
 }
+  /* These are adress  properties */
 .newdivm{
     clear: both;
 }
 .textarea{
     display: inline-block;
     margin-top: -20px;
-
-}
-
-textarea{
     width: 286px;
 }
+
+
+/* These are button  properties */
 
 button:hover {
     background-color: rgb(255, 190, 214);
@@ -392,8 +400,10 @@ button:hover {
 #submit{
     margin-bottom: 100px;
 }
+/* These are contact body frame  properties */
+
 .Contact{
-    width: 50%;
+    width: 550px;
     margin-top: 50px;
     background-color: rgb(255, 243, 241);
     margin-left: 9%;
