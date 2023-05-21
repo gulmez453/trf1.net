@@ -1,0 +1,509 @@
+/* This is for google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Titillium+Web:wght@400;600;700&display=swap');
+
+/* This is  for cemtered header*/
+.header{
+    height: 140px;
+    width: 70%;
+
+    margin-left: 15%;
+    margin-right: 15%;
+
+
+}
+/* This is for logo align left */
+.logo img{
+    float: left;
+    width: 28%;
+    }
+
+    /* This is for ad img centered*/
+
+.advertisement img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 13px;
+    width: 60%;
+
+
+    
+}
+/* This is navbar height and width also color */
+.nav{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0px;
+    height: 34px;
+    width: 70%;
+    background-color: rgb(52, 52, 52);
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: rgb(255, 38, 0);
+    clear: both;
+ 
+}
+/* This is  for sequential menu text  */
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 38px;
+    margin: 0 4px;
+    
+}
+/* This is  for menu text decoration*/
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Titillium Web;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left : 5px;
+    padding-right: 5px;
+  /* This is for color change for active class and hover menu  */  
+}
+.nav ul li a.active,
+.nav ul li a:hover{
+    background-color: rgb(255, 38, 0);
+    transition:0.5s; 
+}
+
+/* This is  centered main division*/
+.main{
+    width: 70%;
+
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+/* This is headline div properties */
+.headline{
+
+    margin-top: 5px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-width: 10px;
+    border-color: rgb(25, 13, 13);
+
+
+}
+/* This is image tag size */
+.headline img{
+
+    width: 100%;
+    height: 350px; 
+    object-fit: none;
+    
+}
+/* These are  h3 h4 p button tag font decoration*/
+h3 {
+    font-family: Titillium Web;
+    font-weight: 600;
+    margin: 10px;
+}
+h4 {
+    font-family: Titillium Web;
+    font-weight: 600;
+    font-size: 17px;
+}
+p {
+    font-family: Titillium Web;
+    margin: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+button {
+    font-family: Titillium Web;
+    font-weight: 600;
+
+    margin-bottom: 10px;
+    margin-left: 10px ;
+}
+
+/* This is  fr news div position left and width*/
+.News {
+    margin-top: 5px;
+    width: 68%;
+    position: relative;
+    float: left;
+
+
+
+}
+
+/* This is all box caption */
+.caption{
+
+    height: 34px;
+    font-family: Titillium Web;
+    font-weight:600;
+    background-color: rgb(216, 216, 216);
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 4px;
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: rgb(255, 38, 0);
+    margin-top: 3px;
+}
+
+/* This is for id baslik font prefer */
+.baslik{
+    font-family: Titillium Web;
+    font-weight:600;
+    font-size: 17px;
+}
+/* These are sequential news division  */
+.news1 {
+    float:left;
+    width: 31%;
+
+
+    
+}
+.news2 {
+    float:left;
+    width: 31%;
+    margin-left: 3.5%;
+
+
+    
+}
+.news3 {
+    float:right;
+    width: 31%;
+
+
+    
+}
+
+/* This is for news img tag size */
+.newscolumb img{
+    width: 100% ;
+    margin-top:5px;
+    margin-bottom: -15px;
+}
+
+/* This is p tag properties */
+.newscolumb p{
+    font-size: 15px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:-15px;
+    
+}
+
+/* This is for  right menu size*/
+.rightmenu{
+    width: 30%;
+
+    position: relative;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 100px;
+
+}
+/* This is for ad box */
+.betbett img{
+
+    width: 100%;
+}
+/* This is for footer */
+.footer{
+    height: 105px;
+    width: 100%;
+    color: rgb(255, 248, 248);
+    text-align: center;
+    font-family: Titillium Web;
+    font-weight: 700;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    clear:both;
+    background-color: rgb(52, 52, 52);
+
+}
+/* This is for footer img tag size */
+.footer img{
+    width: 25px;
+    margin:5px
+    
+}
+/* This is copright font color and align */
+.copyright p{
+    color:rgb(255, 213, 0) ;
+    font-weight: 400;
+    font-size: 12;
+
+}
+/* This is table font */
+table{
+    font-family: Titillium Web;
+    font-size: 15px;
+    
+
+}
+/* These are table row color */
+.r1{
+    width: 100%;
+    background-color: rgb(255, 238, 235);
+
+}
+.r0{
+    width: 100%;
+    background-color: rgb(255, 248, 248);
+}
+.r{
+    width: 100%;
+    text-align: right;
+}
+
+
+a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+/* These are contact page form input message and submit size and font family  */
+.Contact{
+    margin-top: 5px;
+    width: 68%;
+    position: relative;
+    float: left;
+  
+}
+label {
+    float: left;
+    position: relative;
+    display: block;
+    margin-top: 5px;
+    height: 40px;
+    width: 190px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 15px;
+
+  }
+form {
+    
+    font-family: Titillium Web;
+    margin-left: 5%;
+    width: 500px;
+    
+}
+
+input{
+    display: flex;
+    position: relative;
+    width: 280px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 100px;
+
+
+}
+select {
+    width: 292px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+
+  }
+button {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: rgb(255, 38, 0);
+    color: white;  
+  }
+
+  .button {
+    display: inline;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+  }
+
+  .newdiv {
+    clear: both;
+    
+  }
+
+.newdivv{
+    float: left;
+    width: 35px;
+    
+ }
+.newdiva{
+float: left;
+width: 25px;
+margin-left: 15px;
+    
+    font-size: xx-large;
+    margin-top: -10px;
+ }
+ .newdivb{
+    float: left;
+    width: 25px;
+    margin-left: 5px;
+    
+    font-size: xx-large;
+    margin-top: -10px;
+
+ }
+ .newdivb:hover{
+    color: rgb(255, 38, 0);
+ }
+ .newdiva:hover{
+    color: rgb(255, 38, 0);
+ }
+ .newdivt:hover{
+    color: rgb(255, 38, 0);
+ }
+.newdivx{
+    float: left;
+    width: 182px;
+    margin-bottom: 20px;
+   
+   
+}
+.newdivm{
+    clear: both;
+}
+.textarea{
+    display: inline-block;
+    margin-top: -20px;
+
+}
+
+textarea{
+    width: 286px;
+}
+
+button:hover {
+    background-color: rgb(255, 190, 214);
+    color: black;
+    }
+#message {
+
+    height: 150px;
+}
+
+#submit{
+    margin-bottom: 100px;
+}
+.Contact{
+    width: 50%;
+    margin-top: 50px;
+    background-color: rgb(255, 243, 241);
+    margin-left: 9%;
+
+    padding-right: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    border-color: rgb(255, 38, 0);
+    border-style:ridge;
+}
+#result{
+
+
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+    text-align: center;
+    margin-left: 0 ;
+    font-size: x-large;
+    font-style: italic;
+    margin: 30px;
+    line-height: 1.6;
+}
+
+/* This is size of stats page tabbed page */
+.tab-container{
+    margin-top: 5px;
+    width: 68%;
+    position: relative;
+    float: left;
+    margin-bottom: 25px;
+}
+/* This is tab bar properties*/
+.tabs{
+
+    height: 34px;
+    font-family: Titillium Web;
+    font-weight:600;
+    background-color: rgb(216, 216, 216);
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 4px;
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: rgb(255, 38, 0);
+    margin-top: 3px;
+
+}
+/* This is tab bar button decoration */
+.tab-bar-item {
+
+    border: none;
+    font-size: 18px;
+
+    background: inherit;
+    cursor: pointer;
+}
+
+/* This is for colored hover tab */
+.tab-bar-item:hover{
+
+   
+    background: rgb(255, 38, 0);
+    color: white;
+    height: 36px;
+
+
+}
+
+/* These are for teams page img size and align  */
+.teamlogo img{
+    width: 24.8%;
+    float: left;
+}
+.pilot {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.pilot1 img{
+
+    width: 14%;
+    float: left;
+
+
+}
+
+.car img{
+    width: 47.2%;
+    float: left;
+}
+
+/* This is team name caption */
+  .captionteam{
+
+    height: 34px;
+    font-family: Titillium Web;
+    font-weight:600;
+    background-color: rgb(216, 216, 216);
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 4px;
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: rgb(255, 38, 0);
+    margin-top: 3px;
+    clear: both;
+}
+
+#contactcaption{
+    font-style: oblique;
+    font-size: 18px;
+    margin-left: 25px;
+}

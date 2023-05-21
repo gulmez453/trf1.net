@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
@@ -9,7 +9,7 @@
 
     <title>TRF1.net - Türkiye'nin En Büyük Motorsporları Haber Sitesi</title>
 </head>
-<body>
+<body onload="displayFormData()">
     <div class="conteiner">
         <div class="header">
             <div class="logo">
@@ -26,46 +26,15 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="teams.html">Teams&Drivers</a></li>
                 <li><a href="stats.html">Championship Stats</a></li>
-                <li><a href="contact.html" class="active">Contact Us</a></li>
+                
+                <li><a href="gift.html" class="active">Send Gift</a></li>
             </ul>
         </div>
         <div class="main">
             
             <div class="Contact">
-                
-                <form target="_blank" action="new.html" method="POST" id="pasta-form">
-                    <div class="body">
-                        <h1>Send a Gift</h1>
-                    <div class="newdiv"><label for="name">Name</label>
-                  <input type="text" id="name" name="name" required></div>
-                  <div class="newdiv">
-            
-                    <div class="newdivv" id="kgtext"><label id="kg-text">Piece</label></div>
-                    <div class="newdiva" id="kgtext1"><label id="kg-text1">+</label> </div>
-                    <div class="newdivb" id="kgtext2"><label id="kg-text2">-</label></div>
-                  <div class="newdivx"> <input type="number" id="kg" name="kg" min="1" max="10" value="1"></div></div>
-              
-                  <div class="newdiv">
-                  <label for="email">Your Email</label>
-                  <input type="email" id="email" name="email" required placeholder="Enter your email"></div>
-                  <div class="newdiv">
-            
-                  <label class="newdivt" id="type-text" for="type">Click here to change type</label>
-                  <select id="type" name="type" >
-                    <option value="Postal Card">Postal Card</option>
-                    <option value="Mause Pad">Mause Pad</option>
-                    <option value="Celander">Celander</option>
-                    <option value="Poster">Poster</option>
-                    <option value="Race Ticket">Race Ticket</option>
-                  </select></div>
-                  <div class="newdiv">
-                  <label for="date">Delivery Date</label>
-                  <input type="text" id="date" required name="date"></div>
-                  <div class="newdivm" ></div>
-                  <label for="message">Adress:</label><br></div>
-                  <div class="textarea"><textarea cols="40" rows="10" name="message" id="message"></textarea><br><br></div>
-                  <div class="button"><button type="submit">Order</button></div>
-                </form>
+              <div id="result"></div>
+
                
             </div>
 
