@@ -63,3 +63,31 @@
 
       document.getElementById("result").innerHTML = result; // Display the result in the HTML element with id="result"
     }
+
+
+    // get data another website
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", "http://ergast.com/api/f1/2023.json", true);
+
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        var response = JSON.parse(xhr.responseText);
+        var veriDiv = document.getElementById("veri");
+        
+        var yarislar = response.MRData.RaceTable.Races;
+        
+        // show data with table
+        var table = "<table><tr><th>Round</th><th>Date</th><th>Race Name</th></tr>";
+        for (var i = 0; i < yarislar.length; i++) {
+          var round = yarislar[i].round;
+          var date = yarislar[i].date;
+          var raceName = yarislar[i].raceName;
+          table += "<tr><td>" + round + "</td><td>" + raceName + "</td><td>" + date + "</td></tr>";
+        }
+        table += "</table>";
+
+        veriDiv.innerHTML = table;
+      }
+    };
+
+    xhr.send();

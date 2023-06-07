@@ -125,13 +125,20 @@ button {
 /* This is  fr news div position left and width*/
 .News {
     margin-top: 5px;
-    width: 68%;
+
     position: relative;
-    float: left;
+
 
 
 
 }
+.Articles{
+    margin-top: 5px;
+
+    position: relative;
+    clear: both; 
+}
+
 
 /* This is all box caption */
 .caption{
@@ -154,6 +161,12 @@ button {
     font-family: Titillium Web;
     font-weight:600;
     font-size: 17px;
+}
+h1 {
+    font-family: Titillium Web;
+    font-weight:600;
+    font-size: 17px;
+
 }
 /* These are sequential news division  */
 .news1 {
@@ -195,12 +208,22 @@ button {
     
 }
 
-/* This is for  right menu size*/
-.rightmenu{
+.sol {
+    width: 68%;
+
+    float: left;
+}
+.sag {
+    float: right;
+    height: 1000px;
     width: 30%;
 
-    position: relative;
-    float: right;
+}
+
+/* This is for  right menu size*/
+.rightmenu{
+
+
     margin-top: 5px;
     margin-bottom: 100px;
 
@@ -384,5 +407,5 @@ input{
 #contactcaption{
     font-style: oblique;
     font-size: 18px;
-    margin-left: 25px;
+    margin-left: 1%;
 }
