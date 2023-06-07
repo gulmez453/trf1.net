@@ -1,5 +1,5 @@
 var xhr = new XMLHttpRequest();
-xhr.open("GET", "http://ergast.com/api/f1/2023.json", true);
+xhr.open("GET", "https://ergast.com/api/f1/2023.json", true);
 
 xhr.onreadystatechange = function() {
   if (xhr.readyState === 4 && xhr.status === 200) {
