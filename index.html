@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <!-- https://gulmez453.github.io/trf1.net/index.html    Fatih Gülmez 18050171001-->
+
+
 <html>
 <head>
-    <script src="jquery-3.1.1.min.js"></script>
-    <script src="script3.js"></script>
-    <link rel="stylesheet" href="style3.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
 
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="script.js"></script>    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+
+
+    <link rel="stylesheet" type="text/css" href="style3.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+        
+        
     <title>TRF1.net - Türkiye'nin En Büyük Motorsporları Haber Sitesi</title>
 </head>
 <body>
     <div class="conteiner">
         <div class="header">
+            
+
             <div class="logo">
                 <a href="index.html"><img src="logo.jpg" alt="logo"></a>
             </div>
@@ -19,22 +33,35 @@
                 <a href="#"><img src="ogozler.jpg" alt="ogozler"></a>
             </div>
         </div>
+    </div>
         <div class="nav">
+            
             <ul>
+                <div class="menu">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="teams.html">Teams&Drivers</a></li>
                 
-                <li><a href="cel.html">Calendar</a></li>
+                <li><a href="cel.html">Celandar</a></li>
                 <li><a href="gift.html">Send Gift</a></li>
+            </div>
             </ul>
         </div>
         <div class="main">
             <div class="headline">
-                <a href="#"><img src="headline.jpg" alt="headline"></a>
-                <a href="#"><h3>Why drivers are the least of Ferrari’s F1 worries</h3></a>
-                <p>The message from Ferrari’s top brass over the winter has been clear: runner-up spot isn’t enough. The Scuderia had the second-best car in 2022 and what is considered to be the second-best driver line-up on the grid. What will it take to go one better?</p>
-                <div class="button">
-                    <button>Read More</button>
+
+          <!-- Slider-->
+          <div class="slider">
+            <div>
+                <img class="zoom1" src="headline.jpg" alt="headline">
+                <h3>Why drivers are the least of Ferrari’s F1 worries</h3>
+                <p>The message from Ferrari’s top brass over the winter has been clear...</p>
+            </div>
+            <div>
+                <img class="zoom1" src="headline2.jpg" alt="other headline">
+                <h3>Van der Zande fears rivals "built cars to suit Le Mans only”</h3>
+                <p>Zande has admitted to worries American brand’s Le Mans rivals have built cars only with this week’s race in mind.</p>
+            </div>
+                  
                 </div>
             </div>
             <div class="sol">
@@ -84,12 +111,21 @@
             </div>
             <div class="sag">
                 <div class="rightmenu">
+                    <div id="countdown">
+                        <div class="caption">Countdown For Next Race</div>
+                        <div class="hedef">
+                          
+                        <p id="kalanSure">Loading...</p>
+                        </div>
+                    </div>
+
                     <div id="rek">
                         <div class="caption">Advertisement</div>
                         <div class="betbett">
                             <a href="#"><img src="betbett.jpg" alt="1"></a>
                         </div>
                     </div>
+
                     <div class="driverstats">
                         <div class="caption">Driver Stats</div>
                         <div class="tablebox">
@@ -120,7 +156,9 @@
                                 </tr>
                             </table>
                         </div>
+                    
                     </div>
+                    
                     <div class="driverstats">
                         <div class="caption">Teams Stats</div>
                         <div class="tablebox">
@@ -151,6 +189,7 @@
                                 </tr>
                             </table>
                         </div>
+                    
                     </div>
                 </div>
             </div>
@@ -165,6 +204,6 @@
                 <p>© 2023 TRF1.net. All rights reserved.</p>
             </div>
         </div>
-    </div>
+   
 </body>
 </html>

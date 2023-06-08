@@ -2,72 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Titillium+Web:wght@400;600;700&display=swap');
 
 /* This is  for cemtered header*/
-.header{
-    height: 140px;
-    width: 70%;
 
-    margin-left: 15%;
-    margin-right: 15%;
-
-
-}
-/* This is for logo align left */
-.logo img{
-    float: left;
-    width: 28%;
-    }
-
-    /* This is for ad img centered*/
-
-.advertisement img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-    padding-top: 13px;
-    width: 60%;
-
-
-    
-}
-/* This is navbar height and width also color */
-.nav{
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 0px;
-    height: 34px;
-    width: 70%;
-    background-color: rgb(52, 52, 52);
-    border-bottom-style: solid;
-    border-width: 5px;
-    border-color: rgb(255, 38, 0);
-    clear: both;
- 
-}
-/* This is  for sequential menu text  */
-.nav ul li{
-    list-style: none;
-    display: inline-block;
-    line-height: 38px;
-    margin: 0 4px;
-    
-}
-/* This is  for menu text decoration*/
-.nav ul li a{
-    text-decoration: none;
-    color: white;
-    font-family: Titillium Web;
-    font-weight: 600;
-    font-size: 20px;
-    padding-left : 5px;
-    padding-right: 5px;
-  /* This is for color change for active class and hover menu  */  
-}
-.nav ul li a.active,
-.nav ul li a:hover{
-    background-color: rgb(255, 38, 0);
-    transition:0.5s; 
-}
 
 /* This is  centered main division*/
 .main{
@@ -402,30 +337,45 @@ button:hover {
 }
 /* These are contact body frame  properties */
 
-.Contact{
+.Contact {
     width: 550px;
     margin-top: 50px;
     background-color: rgb(255, 243, 241);
-    
-
-
+    margin-bottom: 60px;
     padding-right: 2%;
     padding-bottom: 2%;
     border-radius: 10px;
     border-color: rgb(255, 38, 0);
-    border-style:ridge;
-
+    border-style: ridge;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+.Contactr {
+    width: 550px;
+    margin-top: 50px;
+    background-color: rgb(255, 243, 241);
+    margin-bottom: 60px;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    border-color: rgb(255, 38, 0);
+    border-style: ridge;
+    margin-left: auto;
+    float: left;
 
 }
+
 #result{
 
-
+    
     font-family: 'Roboto', sans-serif;
     font-weight:500;
     text-align: center;
     margin-left: 0 ;
     font-size: x-large;
     font-style: italic;
+    margin-top: 30px;
     margin: 30px;
     line-height: 1.6;
 }

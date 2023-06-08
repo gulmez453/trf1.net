@@ -1,3 +1,5 @@
+// for race celander get with ajax from another website
+
 var xhr = new XMLHttpRequest();
 xhr.open("GET", "https://ergast.com/api/f1/2023.json", true);
 
@@ -30,7 +32,7 @@ xhr.onreadystatechange = function() {
 
 xhr.send();
 
-
+// for article part get with ajax from file 
 
 $(document).ready(function() {
     $('#nav_list a').on('click', function(e) {
@@ -52,3 +54,40 @@ $(document).ready(function() {
     });
   });
   
+
+  // Get countdown data from local from php file
+  function geriSayimiAl() {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'gerisayim.php', true);
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            var geriSayimVerisi = JSON.parse(xhr.responseText);
+            var kalanSureMetin = " " + geriSayimVerisi.gunler + " Days " + geriSayimVerisi.saatler + " Hours " + geriSayimVerisi.dakikalar + " Mins";
+            document.getElementById("kalanSure").innerHTML = kalanSureMetin;
+        }
+    };
+    xhr.send();
+}
+
+geriSayimiAl();
+
+
+//for slider with jquery
+$(document).ready(function(){
+  $('.slider').slick({
+      dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      adaptiveHeight: true
+  });
+});
+
+//Accordion
+$(document).ready(function() {
+	$("#accordion").accordion({
+		collapsible: true,
+		active: false,
+		heightStyle: "content"
+	});
+});

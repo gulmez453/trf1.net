@@ -1,7 +1,7 @@
 /* This is for google font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Titillium+Web:wght@400;600;700&display=swap');
 
-nav a:focus, nav a:hover, article a:hover {
+#nav_list a:focus, nav a:hover, article a:hover {
 	font-style: italic;
     font-family: Titillium Web;
 
